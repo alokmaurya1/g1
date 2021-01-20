@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: g1
+  description: g1
+  annotations: 
+    github.com/project-slug: alokmaurya1/g1
+    backstage.io/github-actions-id: alokmaurya1/g1
+spec:
+  type: service
+  lifecycle: experimental
+  owner: alokmaurya1
